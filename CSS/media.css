@@ -1,0 +1,39 @@
+@media (min-width:578px) {
+    .Services{
+      height: 1800px;
+    }
+    .card{
+      width: 100%;
+    }
+    .serv-heading::after{
+      left:280px ;
+    }
+  }
+@media (min-width:1024px) {
+    .card{
+      width:300px;
+    }
+    .progress{
+        width:545px ;
+    }
+    .about-p{
+        min-width: 560px;
+    }
+    .s1-img{
+      width: 428px;
+      height:497px;
+    }
+    .about-img-container::after{
+        content: "";
+        width: 300px;;
+        height: 320px;
+        bottom: 110px;
+        left: 200px;
+    }
+    .Services{
+        height: 900px;
+    }
+    .serv-heading::after{
+      left:470px ;
+    }
+  }
